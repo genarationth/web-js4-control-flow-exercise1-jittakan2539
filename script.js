@@ -9,8 +9,25 @@ const dayNumber = 6;
 
 if (dayNumber === 0) {
   console.log("Sunday");
+  alert("Sunday");
+} else if (dayNumber === 1) {
+  console.log("Monday");
+  alert("Monday");
+} else if (dayNumber === 2) {
+  console.log("Tuesday");
+  alert("Tuesday");
+} else if (dayNumber === 3) {
+  console.log("Wednesday");
+  alert("Wednesday");
+} else if (dayNumber === 4) {
+  console.log("Thursday");
+  alert("Thursday");
+} else if (dayNumber === 5) {
+  console.log("Friday");
+  alert("Friday");
 } else if (dayNumber === 6) {
   console.log("Saturday");
+  alert("Saturday");
 } else {
   console.log("Invalid day number");
 }
